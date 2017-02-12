@@ -1,0 +1,194 @@
+WARNING: System properties and/or JVM args set.  Consider using --dry-run or --exec
+0    INFO  (main) [   ] o.e.j.u.log Logging initialized @338ms
+208  INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+226  WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+228  INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/prakash/apps/solr-5.3.1/server/contexts/] at interval 0
+645  INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+657  WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp/,STARTING}{/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp} has uncovered http methods for path: /
+663  INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+678  INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+678  INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/prakash/apps/solrhome
+681  INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/prakash/apps/solrhome/'
+827  INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/prakash/apps/solrhome/solr.xml
+898  INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/prakash/apps/solrhome
+920  INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1165303897
+920  INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/prakash/apps/solrhome/]
+921  INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/prakash/apps/solrhome/lib
+921  WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/prakash/apps/solrhome/lib).
+939  INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+1122 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+1126 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+1128 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+1130 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+1130 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+1156 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/prakash/apps/solrhome
+1176 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {--><!--=The contents of this file will be loaded for each web application -->, dataDir=data/, contributor=license agreements.  See the NOTICE file distributed with, </Context>=, this=work for additional information regarding copyright ownership., url="jdbc:mysql://localhost:3306/sptools_event"/>, <Valve=className="org.apache.catalina.valves.CometConnectionManagerValve" />, testOnBorrow="true", transient=false, <Context>=, maxPoolSize="6", <WatchedResource>WEB-INF/web.xml</WatchedResource>=, http=//www.apache.org/licenses/LICENSE-2.0, The=ASF licenses this file to You under the Apache License, Version 2.0, name=primary, removeAbandonedTimeout="60", initialSize="1", auth="Container", jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer", See=the License for the specific language governing permissions and, limitations=under the License., validationQuery="SELECT 1", timeBetweenEvictionRunsMillis="30000", minIdle="1", loadOnStartup=true, -->=, configSetProperties=configsetprops.json, Licensed=to the Apache Software Foundation (ASF) under one or more, factory="org.apache.tomcat.jdbc.pool.DataSourceFactory", driverClassName="com.mysql.jdbc.Driver", <Manager=pathname="" />, the=License.  You may obtain a copy of the License at, minPoolSize="1" , maxIdle="2", minEvictableIdleTimeMillis="30000", on=session expiration as well as webapp lifecycle) -->, password="admin", username="sptools", <!--=These resources can also be put in Tomcat's server.xml inside of the <GlobalNamingResources> tag -->, schema=schema.xml, maxActive="4", <Resource=name="jdbc/event", Unless=required by applicable law or agreed to in writing, software, WITHOUT=WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied., testWhileIdle="true", config=solrconfig.xml, arguments=that are passed in via command line will get 'real' values -->, absoluteInstDir=/home/prakash/apps/solrhome/primary/, for=how these resources get used -->, testOnReturn="false", distributed=under the License is distributed on an "AS IS" BASIS,, instanceDir=/home/prakash/apps/solrhome/primary, <?xml=version="1.0" encoding="UTF-8"?>, logAbandoned="true", removeAbandoned="false", (the="License"); you may not use this file except in compliance with, type="javax.sql.DataSource"}
+1177 INFO  (main) [   ] o.a.s.c.CoresLocator Found core primary in /home/prakash/apps/solrhome/primary/
+1177 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=reindex, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=/home/prakash/apps/solrhome/reindex, absoluteInstDir=/home/prakash/apps/solrhome/reindex/, dataDir=data/}
+1177 INFO  (main) [   ] o.a.s.c.CoresLocator Found core reindex in /home/prakash/apps/solrhome/reindex/
+1177 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+1181 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/prakash/apps/solrhome/primary/'
+1181 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/prakash/apps/solrhome/reindex/'
+1181 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/home/prakash/apps/solr-5.3.1/server
+1181 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+1249 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp/,AVAILABLE}{/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp}
+1264 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@4b9edc66{HTTP/1.1}{0.0.0.0:8983}
+1265 INFO  (main) [   ] o.e.j.s.Server Started @1604ms
+1285 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+1289 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+1335 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 4.10.3
+1335 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 4.10.3
+1459 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+1463 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+1478 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/prakash/apps/solrhome/primary/conf/schema.xml
+1478 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from /home/prakash/apps/solrhome/reindex/conf/schema.xml
+1508 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [primary] Schema name=example
+1519 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [reindex] Schema name=example
+1637 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+1640 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema unique key field: id
+1640 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/prakash/apps/solrhome/primary/conf'
+1642 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'primary' using configuration from instancedir /home/prakash/apps/solrhome/primary/
+1643 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore solr.StandardDirectoryFactory
+1644 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/home/prakash/apps/solrhome/reindex/conf'
+1644 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'reindex' using configuration from instancedir /home/prakash/apps/solrhome/reindex/
+1647 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore solr.StandardDirectoryFactory
+1663 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore [[reindex] ] Opening new SolrCore at [/home/prakash/apps/solrhome/reindex/], dataDir=[null]
+1663 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore [[primary] ] Opening new SolrCore at [/home/prakash/apps/solrhome/primary/], dataDir=[null]
+1663 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore JMX monitoring not detected for core: reindex
+1663 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore JMX monitoring not detected for core: primary
+1667 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore [[primary] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{}]
+1667 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore [[reindex] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{}]
+1668 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore [[primary] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+1668 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore [[reindex] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+1677 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.CachingDirectoryFactory return new directory for /home/prakash/apps/solrhome/primary/data
+1679 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.CachingDirectoryFactory return new directory for /home/prakash/apps/solrhome/reindex/data
+1686 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore New index directory detected: old=null new=/home/prakash/apps/solrhome/reindex/data/index/
+1686 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore New index directory detected: old=null new=/home/prakash/apps/solrhome/primary/data/index/
+1686 WARN  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore [reindex] Solr index directory '/home/prakash/apps/solrhome/reindex/data/index' doesn't exist. Creating new index...
+1686 WARN  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore [primary] Solr index directory '/home/prakash/apps/solrhome/primary/data/index' doesn't exist. Creating new index...
+1698 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.CachingDirectoryFactory return new directory for /home/prakash/apps/solrhome/reindex/data/index
+1698 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.CachingDirectoryFactory return new directory for /home/prakash/apps/solrhome/primary/data/index
+1870 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=/home/prakash/apps/solrhome/reindex/data/index,segFN=segments_1,generation=1}
+1870 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore newest commit generation = 1
+1871 INFO  (OldIndexDirectoryCleanupThreadForCore-reindex) [   x:reindex] o.a.s.c.SolrCore Looking for old index directories to cleanup for core reindex in /home/prakash/apps/solrhome/reindex/data/
+1924 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=/home/prakash/apps/solrhome/primary/data/index,segFN=segments_1,generation=1}
+1924 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore newest commit generation = 1
+1925 INFO  (OldIndexDirectoryCleanupThreadForCore-primary) [   x:primary] o.a.s.c.SolrCore Looking for old index directories to cleanup for core primary in /home/prakash/apps/solrhome/primary/data/
+2112 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2112 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2178 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2178 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2181 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2181 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2181 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2182 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2182 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2182 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2249 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/csv,/update/json/docs,/admin/luke,/select,/admin/segments,/get,/admin/system,/replication,/admin/properties,/config,/schema,/admin/plugins,/admin/logging,/update/json,/admin/threads,/admin/ping,/update,/admin/file
+2249 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/csv,/update/json/docs,/admin/luke,/select,/admin/segments,/get,/admin/system,/replication,/admin/properties,/config,/schema,/admin/plugins,/admin/logging,/update/json,/admin/threads,/admin/ping,/update,/admin/file
+2250 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2250 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2259 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore Hard AutoCommit: disabled
+2259 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore Hard AutoCommit: disabled
+2259 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2259 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2267 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/prakash/apps/solrhome/primary/data/index,segFN=segments_1,generation=1}
+2267 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=/home/prakash/apps/solrhome/reindex/data/index,segFN=segments_1,generation=1}
+2267 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.SolrCore newest commit generation = 1
+2267 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.SolrCore newest commit generation = 1
+2278 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.s.SolrIndexSearcher Opening Searcher@2f4a87a[primary] main
+2278 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.s.SolrIndexSearcher Opening Searcher@6b97970c[reindex] main
+2293 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/prakash/apps/solrhome/reindex/conf
+2293 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/prakash/apps/solrhome/primary/conf
+2293 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/prakash/apps/solrhome/primary/conf}
+2293 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/home/prakash/apps/solrhome/reindex/conf}
+2304 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/prakash/apps/solrhome/primary/conf
+2304 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/home/prakash/apps/solrhome/reindex/conf
+2304 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2304 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2322 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2322 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2323 INFO  (searcherExecutor-7-thread-1-processing-x:primary) [   x:primary] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@2f4a87a[primary] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2323 INFO  (searcherExecutor-8-thread-1-processing-x:reindex) [   x:reindex] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@6b97970c[reindex] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2324 INFO  (coreLoadExecutor-6-thread-2) [   x:reindex] o.a.s.c.CoreContainer registering core: reindex
+2324 INFO  (coreLoadExecutor-6-thread-1) [   x:primary] o.a.s.c.CoreContainer registering core: primary
+2413 INFO  (searcherExecutor-8-thread-1-processing-x:reindex) [   x:reindex] o.a.s.c.S.Request [reindex] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=81 
+2413 INFO  (searcherExecutor-7-thread-1-processing-x:primary) [   x:primary] o.a.s.c.S.Request [primary] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=81 
+2414 INFO  (searcherExecutor-7-thread-1-processing-x:primary) [   x:primary] o.a.s.c.SolrCore QuerySenderListener done.
+2414 INFO  (searcherExecutor-8-thread-1-processing-x:reindex) [   x:reindex] o.a.s.c.SolrCore QuerySenderListener done.
+2414 INFO  (searcherExecutor-7-thread-1-processing-x:primary) [   x:primary] o.a.s.c.SolrCore [primary] Registered new searcher Searcher@2f4a87a[primary] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2414 INFO  (searcherExecutor-8-thread-1-processing-x:reindex) [   x:reindex] o.a.s.c.SolrCore [reindex] Registered new searcher Searcher@6b97970c[reindex] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+8726 INFO  (qtp434176574-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486808699826} status=0 QTime=2 
+230775 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486808921977} status=0 QTime=0 
+230843 INFO  (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486808922024} status=0 QTime=22 
+230860 INFO  (qtp434176574-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1486808922060} status=0 QTime=4 
+240870 INFO  (qtp434176574-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486808932072} status=0 QTime=0 
+250877 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486808942079} status=0 QTime=0 
+260884 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486808952086} status=0 QTime=0 
+270894 INFO  (qtp434176574-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486808962096} status=0 QTime=0 
+280901 INFO  (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486808972103} status=0 QTime=0 
+290911 INFO  (qtp434176574-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486808982114} status=0 QTime=0 
+300919 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486808992121} status=0 QTime=0 
+310927 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486809002129} status=0 QTime=0 
+320938 INFO  (qtp434176574-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1486808692891&_=1486809012139} status=0 QTime=0 
+328030 INFO  (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/threads params={wt=json&_=1486809019142} status=0 QTime=91 
+333643 INFO  (qtp434176574-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/properties params={wt=json&_=1486809024845} status=0 QTime=0 
+365332 INFO  (qtp434176574-12) [   x:reindex] o.a.s.u.p.LogUpdateProcessor [reindex] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=namespace:("d")} 0 119
+365378 INFO  (qtp434176574-15) [   x:reindex] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+365443 INFO  (qtp434176574-15) [   x:reindex] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/home/prakash/apps/solrhome/reindex/data/index,segFN=segments_1,generation=1}
+	commit{dir=/home/prakash/apps/solrhome/reindex/data/index,segFN=segments_2,generation=2}
+365443 INFO  (qtp434176574-15) [   x:reindex] o.a.s.c.SolrCore newest commit generation = 2
+365444 INFO  (qtp434176574-15) [   x:reindex] o.a.s.s.SolrIndexSearcher Opening Searcher@42f5f576[reindex] main
+365446 INFO  (qtp434176574-15) [   x:reindex] o.a.s.u.UpdateHandler end_commit_flush
+365446 INFO  (searcherExecutor-8-thread-1-processing-x:reindex) [   x:reindex] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@42f5f576[reindex] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+365446 INFO  (searcherExecutor-8-thread-1-processing-x:reindex) [   x:reindex] o.a.s.c.SolrCore [reindex] Registered new searcher Searcher@42f5f576[reindex] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+365447 INFO  (qtp434176574-15) [   x:reindex] o.a.s.u.p.LogUpdateProcessor [reindex] webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2} {commit=} 0 69
+366922 INFO  (qtp434176574-18) [   x:reindex] o.a.s.u.p.LogUpdateProcessor [reindex] webapp=/solr path=/update params={wt=javabin&version=2} {add=[f3817639-66f0-4f83-aba9-7cf8f8271071, 718a3510-6b89-463a-aec9-74f7a72b2930, 195ef5f3-060b-4707-b13e-84355174c860, 8b078032-a656-4a31-b16c-f9797efcdb4e, 7d236cc1-738b-4f17-8473-b4a69cad115b, 5c515983-b091-4e24-8140-fc4bc950867a, aab61290-9fe6-4223-82e4-c285c5bc73ed, 4ba88406-92a6-456c-9359-31a72333840f, e8c669d1-27d8-42c5-88ab-805d6b8b55d0, 8af2e56a-9122-417b-aa44-52430668de56, ... (27 adds)]} 0 262
+366926 INFO  (qtp434176574-16) [   x:reindex] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+367662 INFO  (qtp434176574-16) [   x:reindex] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=/home/prakash/apps/solrhome/reindex/data/index,segFN=segments_2,generation=2}
+	commit{dir=/home/prakash/apps/solrhome/reindex/data/index,segFN=segments_3,generation=3}
+367662 INFO  (qtp434176574-16) [   x:reindex] o.a.s.c.SolrCore newest commit generation = 3
+367709 INFO  (qtp434176574-16) [   x:reindex] o.a.s.s.SolrIndexSearcher Opening Searcher@65ab4be4[reindex] main
+367710 INFO  (qtp434176574-16) [   x:reindex] o.a.s.u.UpdateHandler end_commit_flush
+367711 INFO  (searcherExecutor-8-thread-1-processing-x:reindex) [   x:reindex] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@65ab4be4[reindex] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.1):C27)))}
+367711 INFO  (searcherExecutor-8-thread-1-processing-x:reindex) [   x:reindex] o.a.s.c.SolrCore [reindex] Registered new searcher Searcher@65ab4be4[reindex] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.1):C27)))}
+367711 INFO  (qtp434176574-16) [   x:reindex] o.a.s.u.p.LogUpdateProcessor [reindex] webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2} {commit=} 0 784
+367728 INFO  (qtp434176574-13) [   x:reindex] o.a.s.u.UpdateHandler start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+367729 INFO  (qtp434176574-13) [   x:reindex] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+367729 INFO  (qtp434176574-13) [   x:reindex] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+367730 INFO  (qtp434176574-13) [   x:reindex] o.a.s.u.UpdateHandler end_commit_flush
+367730 INFO  (qtp434176574-13) [   x:reindex] o.a.s.u.p.LogUpdateProcessor [reindex] webapp=/solr path=/update params={optimize=true&maxSegments=1&waitSearcher=true&wt=javabin&version=2} {optimize=} 0 1
+367748 INFO  (qtp434176574-14) [   ] o.a.s.c.CoreContainer swapped: primary with reindex
+367748 INFO  (qtp434176574-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={core=primary&other=reindex&action=SWAP&indexInfo=true&wt=javabin&version=2} status=0 QTime=11 
+376618 INFO  (qtp434176574-18) [   x:primary] o.a.s.c.S.Request [primary] webapp=/solr path=/select params={fl=productId&start=0&collection=primary&fq=category:("2001")&fq=namespace:("d")&sort=category_2001_sort+asc,score+desc&rows=15&version=2&q=*:*&defType=edismax&qf=mfg_t+mfg_s+en_name_t+model_t+en_desc_t+en_ldesc_t&facet=true&wt=javabin&debugQuery=true} hits=4 status=0 QTime=142 
+6435712 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@4b9edc66{HTTP/1.1}{0.0.0.0:8983}
+6440025 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1165303897
+6440649 INFO  (Thread-0) [   x:reindex] o.a.s.c.SolrCore [reindex]  CLOSING SolrCore org.apache.solr.core.SolrCore@6ae7001f
+6442119 INFO  (Thread-0) [   x:reindex] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+6442204 INFO  (Thread-0) [   x:reindex] o.a.s.u.SolrCoreState Closing SolrCoreState
+6442214 INFO  (Thread-0) [   x:reindex] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+6442223 INFO  (Thread-0) [   x:reindex] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+6443970 INFO  (Thread-0) [   x:reindex] o.a.s.c.SolrCore [reindex] Closing main searcher on request.
+6444575 INFO  (Thread-0) [   x:reindex] o.a.s.c.CachingDirectoryFactory Closing StandardDirectoryFactory - 2 directories currently being tracked
+6444682 INFO  (Thread-0) [   x:reindex] o.a.s.c.CachingDirectoryFactory looking to close /home/prakash/apps/solrhome/primary/data [CachedDir<<refCount=0;path=/home/prakash/apps/solrhome/primary/data;done=false>>]
+6444682 INFO  (Thread-0) [   x:reindex] o.a.s.c.CachingDirectoryFactory Closing directory: /home/prakash/apps/solrhome/primary/data
+6444683 INFO  (Thread-0) [   x:reindex] o.a.s.c.CachingDirectoryFactory looking to close /home/prakash/apps/solrhome/primary/data/index [CachedDir<<refCount=0;path=/home/prakash/apps/solrhome/primary/data/index;done=false>>]
+6444683 INFO  (Thread-0) [   x:reindex] o.a.s.c.CachingDirectoryFactory Closing directory: /home/prakash/apps/solrhome/primary/data/index
+6444727 INFO  (Thread-0) [   x:primary] o.a.s.c.SolrCore [primary]  CLOSING SolrCore org.apache.solr.core.SolrCore@1f2a4c5c
+6445040 INFO  (Thread-0) [   x:primary] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=2,autocommits=0,soft autocommits=0,optimizes=1,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=27,cumulative_deletesById=0,cumulative_deletesByQuery=1,cumulative_errors=0}
+6445052 INFO  (Thread-0) [   x:primary] o.a.s.u.SolrCoreState Closing SolrCoreState
+6445052 INFO  (Thread-0) [   x:primary] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+6445052 INFO  (Thread-0) [   x:primary] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+6445963 INFO  (Thread-0) [   x:primary] o.a.s.c.SolrCore [primary] Closing main searcher on request.
+6447159 INFO  (Thread-0) [   x:primary] o.a.s.c.CachingDirectoryFactory Closing StandardDirectoryFactory - 2 directories currently being tracked
+6447245 INFO  (Thread-0) [   x:primary] o.a.s.c.CachingDirectoryFactory looking to close /home/prakash/apps/solrhome/reindex/data/index [CachedDir<<refCount=0;path=/home/prakash/apps/solrhome/reindex/data/index;done=false>>]
+6447245 INFO  (Thread-0) [   x:primary] o.a.s.c.CachingDirectoryFactory Closing directory: /home/prakash/apps/solrhome/reindex/data/index
+6447245 INFO  (Thread-0) [   x:primary] o.a.s.c.CachingDirectoryFactory looking to close /home/prakash/apps/solrhome/reindex/data [CachedDir<<refCount=0;path=/home/prakash/apps/solrhome/reindex/data;done=false>>]
+6447245 INFO  (Thread-0) [   x:primary] o.a.s.c.CachingDirectoryFactory Closing directory: /home/prakash/apps/solrhome/reindex/data
+6451525 INFO  (Thread-0) [   x:primary] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp/,UNAVAILABLE}{/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp}

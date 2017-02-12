@@ -1,0 +1,99 @@
+2017-02-11 01:00:13.811 INFO  (main) [   ] o.e.j.u.log Logging initialized @323ms
+2017-02-11 01:00:13.995 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2017-02-11 01:00:14.011 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-02-11 01:00:14.013 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/home/prakash/apps/solr-5.3.1/server/contexts/] at interval 0
+2017-02-11 01:00:14.393 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-02-11 01:00:14.402 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp/,STARTING}{/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-02-11 01:00:14.408 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2017-02-11 01:00:14.424 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-02-11 01:00:14.425 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /home/prakash/apps/solrhome/
+2017-02-11 01:00:14.427 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/home/prakash/apps/solrhome/'
+2017-02-11 01:00:14.558 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/prakash/apps/solrhome/solr.xml
+2017-02-11 01:00:14.627 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: /home/prakash/apps/solrhome
+2017-02-11 01:00:14.648 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1165303897
+2017-02-11 01:00:14.648 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/home/prakash/apps/solrhome/]
+2017-02-11 01:00:14.648 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: /home/prakash/apps/solrhome/lib
+2017-02-11 01:00:14.648 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: /home/prakash/apps/solrhome/lib).
+2017-02-11 01:00:14.665 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2017-02-11 01:00:14.832 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-02-11 01:00:14.834 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-02-11 01:00:14.835 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-02-11 01:00:14.836 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2017-02-11 01:00:14.836 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2017-02-11 01:00:14.860 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath /home/prakash/apps/solrhome
+2017-02-11 01:00:14.878 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {--><!--=The contents of this file will be loaded for each web application -->, dataDir=data/, contributor=license agreements.  See the NOTICE file distributed with, </Context>=, this=work for additional information regarding copyright ownership., url="jdbc:mysql://localhost:3306/sptools_event"/>, <Valve=className="org.apache.catalina.valves.CometConnectionManagerValve" />, testOnBorrow="true", transient=false, <Context>=, maxPoolSize="6", <WatchedResource>WEB-INF/web.xml</WatchedResource>=, http=//www.apache.org/licenses/LICENSE-2.0, The=ASF licenses this file to You under the Apache License, Version 2.0, name=primary, removeAbandonedTimeout="60", initialSize="1", auth="Container", jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer", See=the License for the specific language governing permissions and, limitations=under the License., validationQuery="SELECT 1", timeBetweenEvictionRunsMillis="30000", minIdle="1", loadOnStartup=true, -->=, configSetProperties=configsetprops.json, Licensed=to the Apache Software Foundation (ASF) under one or more, factory="org.apache.tomcat.jdbc.pool.DataSourceFactory", driverClassName="com.mysql.jdbc.Driver", <Manager=pathname="" />, the=License.  You may obtain a copy of the License at, minPoolSize="1" , maxIdle="2", minEvictableIdleTimeMillis="30000", on=session expiration as well as webapp lifecycle) -->, password="admin", username="sptools", <!--=These resources can also be put in Tomcat's server.xml inside of the <GlobalNamingResources> tag -->, schema=schema.xml, maxActive="4", <Resource=name="jdbc/event", Unless=required by applicable law or agreed to in writing, software, WITHOUT=WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied., testWhileIdle="true", config=solrconfig.xml, arguments=that are passed in via command line will get 'real' values -->, absoluteInstDir=/home/prakash/apps/solrhome/primary/, for=how these resources get used -->, testOnReturn="false", distributed=under the License is distributed on an "AS IS" BASIS,, instanceDir=/home/prakash/apps/solrhome/primary, <?xml=version="1.0" encoding="UTF-8"?>, logAbandoned="true", removeAbandoned="false", (the="License"); you may not use this file except in compliance with, type="javax.sql.DataSource"}
+2017-02-11 01:00:14.878 INFO  (main) [   ] o.a.s.c.CoresLocator Found core primary in /home/prakash/apps/solrhome/primary/
+2017-02-11 01:00:14.880 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {--><!--=The contents of this file will be loaded for each web application -->, dataDir=data/, contributor=license agreements.  See the NOTICE file distributed with, </Context>=, this=work for additional information regarding copyright ownership., url="jdbc:mysql://localhost:3306/sptools_event"/>, <Valve=className="org.apache.catalina.valves.CometConnectionManagerValve" />, testOnBorrow="true", transient=false, <Context>=, maxPoolSize="6", <WatchedResource>WEB-INF/web.xml</WatchedResource>=, http=//www.apache.org/licenses/LICENSE-2.0, The=ASF licenses this file to You under the Apache License, Version 2.0, name=primary, removeAbandonedTimeout="60", initialSize="1", auth="Container", jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer", See=the License for the specific language governing permissions and, limitations=under the License., validationQuery="SELECT 1", timeBetweenEvictionRunsMillis="30000", minIdle="1", loadOnStartup=true, -->=, configSetProperties=configsetprops.json, Licensed=to the Apache Software Foundation (ASF) under one or more, factory="org.apache.tomcat.jdbc.pool.DataSourceFactory", driverClassName="com.mysql.jdbc.Driver", <Manager=pathname="" />, the=License.  You may obtain a copy of the License at, minPoolSize="1" , maxIdle="2", minEvictableIdleTimeMillis="30000", on=session expiration as well as webapp lifecycle) -->, password="admin", username="sptools", <!--=These resources can also be put in Tomcat's server.xml inside of the <GlobalNamingResources> tag -->, schema=schema.xml, maxActive="4", <Resource=name="jdbc/event", Unless=required by applicable law or agreed to in writing, software, WITHOUT=WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied., testWhileIdle="true", config=solrconfig.xml, arguments=that are passed in via command line will get 'real' values -->, absoluteInstDir=/home/prakash/apps/solrhome/reindex/, for=how these resources get used -->, testOnReturn="false", distributed=under the License is distributed on an "AS IS" BASIS,, instanceDir=/home/prakash/apps/solrhome/reindex, <?xml=version="1.0" encoding="UTF-8"?>, logAbandoned="true", removeAbandoned="false", (the="License"); you may not use this file except in compliance with, type="javax.sql.DataSource"}
+2017-02-11 01:00:14.881 INFO  (main) [   ] o.a.s.c.CoresLocator Found core primary in /home/prakash/apps/solrhome/reindex/
+2017-02-11 01:00:14.881 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+2017-02-11 01:00:14.885 ERROR (main) [   ] o.a.s.s.SolrDispatchFilter Could not start Solr. Check solr/home property and the logs
+2017-02-11 01:00:14.886 ERROR (main) [   ] o.a.s.c.SolrCore null:org.apache.solr.common.SolrException: Found multiple cores with the name [primary], with instancedirs [/home/prakash/apps/solrhome/primary/] and [/home/prakash/apps/solrhome/reindex/]
+	at org.apache.solr.core.CoreContainer.checkForDuplicateCoreNames(CoreContainer.java:507)
+	at org.apache.solr.core.CoreContainer.load(CoreContainer.java:424)
+	at org.apache.solr.servlet.SolrDispatchFilter.createCoreContainer(SolrDispatchFilter.java:132)
+	at org.apache.solr.servlet.SolrDispatchFilter.init(SolrDispatchFilter.java:109)
+	at org.eclipse.jetty.servlet.FilterHolder.initialize(FilterHolder.java:138)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:852)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:298)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:41)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:186)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:498)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:146)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:180)
+	at org.eclipse.jetty.deploy.providers.WebAppProvider.fileAdded(WebAppProvider.java:461)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:64)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:609)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:528)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:391)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:313)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:150)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:560)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:235)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.xml.XmlConfiguration$1.run(XmlConfiguration.java:1255)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.jetty.xml.XmlConfiguration.main(XmlConfiguration.java:1174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jetty.start.Main.invokeMain(Main.java:321)
+	at org.eclipse.jetty.start.Main.start(Main.java:817)
+	at org.eclipse.jetty.start.Main.main(Main.java:112)
+
+2017-02-11 01:00:14.887 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2017-02-11 01:00:14.896 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp/,AVAILABLE}{/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp}
+2017-02-11 01:00:14.945 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@1a97a805{HTTP/1.1}{0.0.0.0:8983}
+2017-02-11 01:00:14.946 INFO  (main) [   ] o.e.j.s.Server Started @1459ms
+2017-02-11 01:00:30.455 INFO  (qtp434176574-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486774830432} status=0 QTime=18 
+2017-02-11 01:00:30.529 INFO  (qtp434176574-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486774830487} status=0 QTime=40 
+2017-02-11 02:18:29.104 INFO  (qtp434176574-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486779508688} status=0 QTime=386 
+2017-02-11 02:18:30.099 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486779509203} status=0 QTime=893 
+2017-02-11 02:24:03.380 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486779843368} status=0 QTime=0 
+2017-02-11 02:24:04.284 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486779843641} status=0 QTime=641 
+2017-02-11 02:30:01.203 INFO  (qtp434176574-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486780201168} status=0 QTime=0 
+2017-02-11 02:30:02.609 INFO  (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486780201452} status=0 QTime=1097 
+2017-02-11 02:51:02.649 INFO  (qtp434176574-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486781462592} status=0 QTime=0 
+2017-02-11 02:51:03.839 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486781462787} status=0 QTime=1050 
+2017-02-11 02:55:47.163 INFO  (qtp434176574-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486781747160} status=0 QTime=0 
+2017-02-11 02:55:47.804 INFO  (qtp434176574-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486781747237} status=0 QTime=564 
+2017-02-11 03:27:54.830 INFO  (qtp434176574-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486783674827} status=0 QTime=0 
+2017-02-11 03:27:55.840 INFO  (qtp434176574-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486783674915} status=0 QTime=923 
+2017-02-11 03:39:25.341 INFO  (qtp434176574-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1486784365337} status=0 QTime=0 
+2017-02-11 03:39:26.496 INFO  (qtp434176574-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1486784365535} status=0 QTime=957 
+2017-02-11 03:42:15.182 INFO  (Thread-0) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@1a97a805{HTTP/1.1}{0.0.0.0:8983}
+2017-02-11 03:42:15.278 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1165303897
+2017-02-11 03:42:18.411 INFO  (Thread-0) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp/,UNAVAILABLE}{/home/prakash/apps/solr-5.3.1/server/solr-webapp/webapp}

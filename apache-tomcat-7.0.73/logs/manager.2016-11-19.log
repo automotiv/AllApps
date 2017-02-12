@@ -1,0 +1,86 @@
+Nov 19, 2016 8:30:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 19, 2016 8:30:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Nov 19, 2016 8:30:35 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 8:32:13 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 11:32:50 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/sptools'
+Nov 19, 2016 11:32:50 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/prakash/apps/apache-tomcat-7.0.73/webapps/sptools.war
+Nov 19, 2016 11:35:07 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 11:35:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/sptools'
+Nov 19, 2016 11:35:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/prakash/apps/apache-tomcat-7.0.73/webapps/sptools.war
+Nov 19, 2016 1:26:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 19, 2016 1:26:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Nov 19, 2016 1:26:15 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 1:29:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 1:29:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 1:30:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 1:30:07 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 1:33:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 19, 2016 1:33:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Nov 19, 2016 1:33:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/sptools'
+Nov 19, 2016 1:33:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/prakash/apps/apache-tomcat-7.0.73/webapps/sptools.war
+Nov 19, 2016 1:40:58 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 1:40:58 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 1:56:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 1:56:55 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 1:57:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 1:57:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 3:17:58 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/sptools'
+Nov 19, 2016 3:17:58 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/prakash/apps/apache-tomcat-7.0.73/webapps/sptools.war
+Nov 19, 2016 5:14:20 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 5:15:17 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/sptools'
+Nov 19, 2016 5:15:18 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 5:18:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/mycompany'
+Nov 19, 2016 5:18:16 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: Uploading WAR file to /home/prakash/apps/apache-tomcat-7.0.73/webapps/mycompany.war
+Nov 19, 2016 5:29:42 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 5:31:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 5:31:40 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 5:34:38 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: undeploy: Undeploying web application at '/mycompany'
+Nov 19, 2016 5:34:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 5:34:59 PM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 19, 2016 5:35:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Nov 19, 2016 5:35:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Nov 19, 2016 5:35:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'
+Nov 19, 2016 5:35:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: deploy: Deploying web application '/'

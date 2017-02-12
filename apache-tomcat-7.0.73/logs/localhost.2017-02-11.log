@@ -1,0 +1,327 @@
+Feb 11, 2017 6:06:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 6:06:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 6:06:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2cde2d2f')
+Feb 11, 2017 6:07:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 6:07:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 6:08:51 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 6:08:51 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 6:08:51 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@933d901')
+Feb 11, 2017 6:19:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 6:19:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 6:19:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 6:19:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 6:19:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@533fcaee')
+Feb 11, 2017 6:36:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 6:36:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 6:36:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 6:36:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 6:36:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@453880f')
+Feb 11, 2017 6:50:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 6:50:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 6:50:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 6:50:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 6:50:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7e5e7df7')
+Feb 11, 2017 6:52:30 AM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.util.Log4jConfigListener
+java.lang.IllegalStateException: Web app root system property already set to different value: 'site.root' = [/home/prakash/apps/apache-tomcat-7.0.73/AutoNagar/ROOT/] instead of [/home/prakash/apps/apache-tomcat-7.0.73/webapps/ROOT/] - Choose unique values for the 'webAppRootKey' context-param in your web.xml files!
+	at org.springframework.web.util.WebUtils.setWebAppRootSystemProperty(WebUtils.java:166)
+	at org.springframework.web.util.Log4jWebConfigurer.initLogging(Log4jWebConfigurer.java:117)
+	at org.springframework.web.util.Log4jConfigListener.contextInitialized(Log4jConfigListener.java:46)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 11, 2017 6:52:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Feb 11, 2017 6:52:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'site.root' = [/home/prakash/apps/apache-tomcat-7.0.73/webapps/ROOT/]
+Feb 11, 2017 6:52:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [/home/prakash/apps/apache-tomcat-7.0.73/webapps/ROOT/WEB-INF/log4j.xml]
+Feb 11, 2017 6:52:42 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Feb 11, 2017 6:53:58 AM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.broadleafcommerce.common.web.extensibility.MergeContextLoader
+org.springframework.jmx.export.UnableToRegisterMBeanException: Unable to register MBean [org.hibernate.jmx.StatisticsService@50590816] with key 'org.broadleafcommerce:name=hibernate.statistics-sptoolsSite'; nested exception is javax.management.InstanceAlreadyExistsException: org.broadleafcommerce:name=hibernate.statistics-sptoolsSite
+	at org.springframework.jmx.export.MBeanExporter.registerBeanNameOrInstance(MBeanExporter.java:625)
+	at org.springframework.jmx.export.MBeanExporter.registerBeans(MBeanExporter.java:550)
+	at org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:432)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:775)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:434)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.broadleafcommerce.common.web.extensibility.MergeContextLoader.contextInitialized(MergeContextLoader.java:146)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:899)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:875)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1092)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1984)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: javax.management.InstanceAlreadyExistsException: org.broadleafcommerce:name=hibernate.statistics-sptoolsSite
+	at com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:437)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1898)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:966)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:900)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:324)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.springframework.jmx.support.MBeanRegistrationSupport.doRegister(MBeanRegistrationSupport.java:195)
+	at org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:670)
+	at org.springframework.jmx.export.MBeanExporter.registerBeanNameOrInstance(MBeanExporter.java:621)
+	... 22 more
+
+Feb 11, 2017 6:53:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Feb 11, 2017 6:54:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j
+Feb 11, 2017 6:54:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 6:54:10 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 6:54:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'site.root' = [/home/prakash/apps/apache-tomcat-7.0.73/webapps/ROOT/]
+Feb 11, 2017 6:54:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [/home/prakash/apps/apache-tomcat-7.0.73/webapps/ROOT/WEB-INF/log4j.xml]
+Feb 11, 2017 6:54:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Feb 11, 2017 6:54:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'RESTApiServlet'
+Feb 11, 2017 6:54:42 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'sptools'
+Feb 11, 2017 6:54:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 6:54:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 6:54:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3d985e09')
+Feb 11, 2017 6:55:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'RESTApiServlet'
+Feb 11, 2017 6:55:15 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'sptools'
+Feb 11, 2017 6:55:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 6:55:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 6:55:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@537cc797')
+Feb 11, 2017 6:55:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'RESTApiServlet'
+Feb 11, 2017 6:55:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'sptools'
+Feb 11, 2017 6:55:41 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Feb 11, 2017 6:55:51 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'RESTApiServlet'
+Feb 11, 2017 6:55:51 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'sptools'
+Feb 11, 2017 6:55:51 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Feb 11, 2017 6:55:52 AM org.apache.catalina.core.StandardContext listenerStop
+SEVERE: Exception sending context destroyed event to listener instance of class org.broadleafcommerce.common.web.extensibility.MergeContextLoader
+java.lang.NoClassDefFoundError: org/apache/log4j/spi/ThrowableInformation
+	at org.apache.log4j.spi.LoggingEvent.<init>(LoggingEvent.java:154)
+	at org.apache.log4j.Category.forcedLog(Category.java:388)
+	at org.apache.log4j.Category.log(Category.java:853)
+	at org.slf4j.impl.Log4jLoggerAdapter.log(Log4jLoggerAdapter.java:602)
+	at org.apache.commons.logging.impl.SLF4JLocationAwareLog.warn(SLF4JLocationAwareLog.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:887)
+	at org.broadleafcommerce.common.web.extensibility.MergeXmlWebApplicationContext.doClose(MergeXmlWebApplicationContext.java:176)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:843)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:578)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5165)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1562)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1488)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:745)
+
+Feb 11, 2017 6:55:52 AM org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j
+Feb 11, 2017 6:55:52 AM org.apache.catalina.core.StandardContext listenerStop
+SEVERE: Exception sending context destroyed event to listener instance of class org.springframework.web.util.Log4jConfigListener
+java.lang.NoClassDefFoundError: org/apache/log4j/helpers/NullEnumeration
+	at org.apache.log4j.Category.getAllAppenders(Category.java:410)
+	at org.apache.log4j.Category.closeNestedAppenders(Category.java:223)
+	at org.apache.log4j.Hierarchy.shutdown(Hierarchy.java:447)
+	at org.apache.log4j.LogManager.shutdown(LogManager.java:227)
+	at org.springframework.util.Log4jConfigurer.shutdownLogging(Log4jConfigurer.java:120)
+	at org.springframework.web.util.Log4jWebConfigurer.shutdownLogging(Log4jWebConfigurer.java:170)
+	at org.springframework.web.util.Log4jConfigListener.contextDestroyed(Log4jConfigListener.java:51)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5165)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:1019)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1562)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1488)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1748)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:333)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1370)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.helpers.NullEnumeration
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	... 22 more
+
+Feb 11, 2017 6:56:11 AM org.apache.catalina.core.StandardContext listenerStop
+SEVERE: Exception sending context destroyed event to listener instance of class org.broadleafcommerce.common.web.extensibility.MergeContextLoader
+java.lang.NoClassDefFoundError: org/springframework/web/context/ContextCleanupListener
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:116)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5165)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.context.ContextCleanupListener
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	... 10 more
+
+Feb 11, 2017 6:56:11 AM org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j
+Feb 11, 2017 6:56:11 AM org.apache.catalina.core.StandardContext listenerStop
+SEVERE: Exception sending context destroyed event to listener instance of class org.springframework.web.util.Log4jConfigListener
+java.lang.NoClassDefFoundError: org/apache/log4j/helpers/NullEnumeration
+	at org.apache.log4j.Category.getAllAppenders(Category.java:410)
+	at org.apache.log4j.Category.closeNestedAppenders(Category.java:223)
+	at org.apache.log4j.Hierarchy.shutdown(Hierarchy.java:447)
+	at org.apache.log4j.LogManager.shutdown(LogManager.java:227)
+	at org.springframework.util.Log4jConfigurer.shutdownLogging(Log4jConfigurer.java:120)
+	at org.springframework.web.util.Log4jWebConfigurer.shutdownLogging(Log4jWebConfigurer.java:170)
+	at org.springframework.web.util.Log4jConfigListener.contextDestroyed(Log4jConfigListener.java:51)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:5165)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5829)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1587)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1576)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.apache.log4j.helpers.NullEnumeration
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1892)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1735)
+	... 16 more
+
+Feb 11, 2017 6:56:11 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 6:56:11 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 6:57:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 6:57:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 6:57:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'site.root' = [/home/prakash/apps/apache-tomcat-7.0.73/webapps/ROOT/]
+Feb 11, 2017 6:57:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [/home/prakash/apps/apache-tomcat-7.0.73/webapps/ROOT/WEB-INF/log4j.xml]
+Feb 11, 2017 6:57:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Feb 11, 2017 7:01:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'RESTApiServlet'
+Feb 11, 2017 7:02:08 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'sptools'
+Feb 11, 2017 7:02:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 7:02:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 7:02:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@131a88a1')
+Feb 11, 2017 7:04:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'RESTApiServlet'
+Feb 11, 2017 7:04:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'sptools'
+Feb 11, 2017 7:04:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Feb 11, 2017 7:04:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j
+Feb 11, 2017 7:04:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 7:04:32 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 7:05:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: Set web app root system property: 'site.root' = [/home/prakash/apps/apache-tomcat-7.0.73/webapps/sptools/]
+Feb 11, 2017 7:05:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing log4j from [/home/prakash/apps/apache-tomcat-7.0.73/webapps/sptools/WEB-INF/log4j.xml]
+Feb 11, 2017 7:05:37 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Feb 11, 2017 7:06:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'RESTApiServlet'
+Feb 11, 2017 7:06:03 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'sptools'
+Feb 11, 2017 7:06:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Feb 11, 2017 7:06:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Feb 11, 2017 7:06:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@f2fa421')
+Feb 11, 2017 7:43:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Feb 11, 2017 7:43:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Feb 11, 2017 7:43:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'RESTApiServlet'
+Feb 11, 2017 7:43:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'sptools'
+Feb 11, 2017 7:43:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Feb 11, 2017 7:43:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Shutting down log4j

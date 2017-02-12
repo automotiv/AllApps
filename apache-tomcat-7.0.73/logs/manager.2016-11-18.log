@@ -1,0 +1,8 @@
+Nov 18, 2016 6:25:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Nov 18, 2016 6:25:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: init: Global resources are available
+Nov 18, 2016 6:25:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
+Nov 18, 2016 6:25:34 AM org.apache.catalina.core.ApplicationContext log
+INFO: HTMLManager: list: Listing contexts for virtual host 'localhost'
